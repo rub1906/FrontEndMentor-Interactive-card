@@ -110,9 +110,6 @@ function checkErrors(correctForm) {
     errorExp.textContent = "Select a valid month";
     monthText.classList.add("error-state");
     cardMonth.textContent = "00";
-  } else {
-    monthText.classList.remove("error-state");
-    errorExp.textContent = "";
   }
 
   if (
